@@ -1,1 +1,86 @@
-/*write css here*/
+body {
+    margin: 0;
+    min-width: 250px;
+}
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: whitesmoke;
+    font-size: 18px;
+}
+
+ul li:hover {
+    background: lightgrey;
+}
+
+
+.header {
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+input {
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.add {
+    font-size: 20px;
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: gray;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.add:hover {
+    background-color: #bbb;
+}
+
+button{
+    width: 33.33%;
+}
+.btn-group button {
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+    padding: 10px 24px;
+    float: left;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.btn-group button:hover {
+    background-color: gray;
+}

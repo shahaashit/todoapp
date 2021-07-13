@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Todo APP</title>
-</head>
+  </head>
 
-<body>
-Write your code here
-</body>
+  <body>
+    
+    <div id="upperAddPart">
+      <h1 id="title">TODO APP</h1>
+      <form>
+        <input type="text" id="taskAddText" name="taskAddText" placeholder="Add Todo" />
+        <button type="submit" id="taskAddSubmit">Add</button>
+      </form>
+    </div>
+    <div id="lowerTasksPart">
+      <ul class="lowerHeaderContainer">
+        <li class="taskHeader active all">ALL</li>
+        <li class="taskHeader completed">COMPLETED</li>
+        <li class="taskHeader pending">PENDING</li>
+      </ul>
+      <ul class="taskContainer">
+        <!-- <li class="taskPending">
+            <p class="taskText taskPendingText">Task 1</p>
+            <div  class="cross pendingx">x</div>
+        </li>
+        <li class="taskCompleted">
+          <div class="checkmark">L</div>
+          <p class="taskText taskCompletedText">Task 2</p>
+          <div  class="cross completedx">x</div>
+        </li>
+        <li class="taskPending">
+            <p class="taskText taskPendingText">Task 3</p>
+            <div  class="cross pendingx">x</div>
+        </li> -->
+      </ul>
+    </div>
+    <script src="/js/todo.js"></script>
+  </body>
 </html>
